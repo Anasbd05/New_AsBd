@@ -3,9 +3,9 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className='py-6 px-10 flex items-center border-b bg-white w-11/12 mx-auto  rounded-md border-foreground justify-between'>
+        <nav className='py-6 mt-2 px-10 flex items-center border-b bg-white w-11/12 mx-auto  rounded-md border-foreground justify-between'>
             <h1 className='font-bold text-4xl font-header'>AS_BD</h1>
-            <div className="flex gap-6 items-center">
+            <div className="hidden md:flex gap-6  items-center">
                 <Link className='hover:text-primary' href={"#"}>Home</Link>
                 <Link className='hover:text-primary' href={"#about"}>About</Link>
                 <Link className='hover:text-primary' href={"#services"}>Services</Link>
