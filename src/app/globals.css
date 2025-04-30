@@ -7,3 +7,13 @@
   --color-accent: #90C67C;
   --font-header: var(--font-header);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.insetShad {
+  box-shadow: 0px 2px 21px -7px rgba(144, 198, 124, 1) inset;
+  -webkit-box-shadow: 0px 2px 21px -7px rgba(144, 198, 124, 1) inset;
+  -moz-box-shadow: 0px 2px 21px -7px rgba(144, 198, 124, 1) inset;
+}

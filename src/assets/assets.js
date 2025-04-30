@@ -1,28 +1,34 @@
+import responsive from "./app-design.png"
+import website from "./website-design.png"
+import ui_desgin from "./ui-design.png"
+import landing from "./landing-page.png"
+import e_com from "./e-commerce.png"
+
 export const services = [
     {
       title: "Web Design & Development",
       description: "I craft modern, high-performance websites that look stunning and work seamlessly, tailored to your brand’s vision.",
-      icon: "🖥️"
+      icon: website
     },
     {
       title: "Landing Page Design",
       description: "I design powerful landing pages optimized to drive conversions, helping you turn visitors into customers.",
-      icon: "📈"
+      icon: landing 
     },
     {
       title: "E-commerce Design",
       description: "I build user-friendly, visually appealing online stores using Shopify, WooCommerce, and more, focused on boosting sales.",
-      icon: "🛒"
+      icon: e_com
     },
     {
       title: "Responsive Design",
       description: "I ensure your website adapts perfectly to all devices — mobile, tablet, and desktop — for a smooth, consistent experience.",
-      icon: "📱"
+      icon: responsive
     },
     {
       title: "Interaction Design",
       description: "I create engaging animations and micro-interactions that bring websites to life and enhance user experience.",
-      icon: "✨"
+      icon: ui_desgin
     }
   ];
 

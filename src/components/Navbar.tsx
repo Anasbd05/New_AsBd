@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="hidden md:flex gap-6  items-center">
                 <Link className='hover:text-primary' href={"#"}>Home</Link>
                 <Link className='hover:text-primary' href={"#about"}>About</Link>
-                <Link className='hover:text-primary' href={"#services"}>Services</Link>
+                <Link className='hover:text-primary' href={"#services"}>Projects</Link>
                 <Link className='hover:text-primary' href={"#pricing"}>Pricing</Link>
             </div>
             <button className=' py-2 px-7 ring cursor-pointer ring-foreground hover:bg-primary duration-500 rounded-lg'>Contact Me</button>
